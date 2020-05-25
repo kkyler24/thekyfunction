@@ -6,9 +6,3 @@ background: no-repeat center center scroll;
 -webkit-background-size:cover;
 background-size: cover;
 }
-
-#navText{
-    font-family: 'Cardo', serif;
-    font-size: 26px;
-    font-weight: bold;
-}

@@ -16,7 +16,6 @@ background-size: cover;
 }
 .navbar-light .navbar-brand .navbar-light .navbar-nav .active>.nav-link {
     color: #f8f9fa!important;
-    padding: 0rem;
 }
 
 .navbar-nav .nav-link, a{

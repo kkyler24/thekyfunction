@@ -7,7 +7,7 @@ background: no-repeat center center scroll;
 background-size: cover;
 }
 
-#navText{
+#navText, ul li a{
     font-family: 'Cardo', serif;
     font-size: 26px;
     font-weight: bold;
@@ -16,12 +16,8 @@ background-size: cover;
 }
 .navbar-light .navbar-brand .navbar-light .navbar-nav .active>.nav-link {
     color: #f8f9fa!important;
-    padding: 0rem;
 }
 
 .navbar-nav .nav-link, a{
     color: #f8f9fa!important;
-}
-ul li a:hover{
-    background-color: #211b4385;
 }

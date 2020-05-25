@@ -14,14 +14,7 @@ background-size: cover;
     background-color: rgb(0, 0, 0, 0.2);
    
 }
-.navbar-light .navbar-brand .navbar-light .navbar-nav .active>.nav-link {
-    color: #f8f9fa!important;
-    padding: 0rem;
-}
 
-.navbar-nav .nav-link, a{
-    color: #f8f9fa!important;
-}
-ul li a:hover{
-    background-color: #211b4385;
+.navbar-light .navbar-brand, #navIdText  {
+    color: #f8f9fa;
 }

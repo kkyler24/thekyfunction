@@ -10,18 +10,16 @@ background-size: cover;
 #navText{
     font-family: 'Cardo', serif;
     font-size: 26px;
+
     font-weight: bold;
     background-color: rgb(0, 0, 0, 0.2);
    
 }
-.navbar-light .navbar-brand .navbar-light .navbar-nav .active>.nav-link {
-    color: #f8f9fa!important;
-    padding: 0rem;
+
+#navIdText .navbar-light .navbar-brand {
+    color: #f8f9fa;
 }
 
-.navbar-nav .nav-link, a{
+.navbar-light  ul.nav-item .navbar-nav .active>.nav-link{
     color: #f8f9fa!important;
-}
-ul li a:hover{
-    background-color: #211b4385;
 }

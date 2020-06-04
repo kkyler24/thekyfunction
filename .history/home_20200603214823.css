@@ -28,25 +28,17 @@ ul li a:hover{
     width:100%;
     height: auto;
     object-fit: cover;
-    opacity: 0.7;
 }
 
 .flex-container{
 display: flex;
 flex-direction: column;
+
 }
 
 .projectDivs{
 position: absolute;
   bottom: 8px;
-  display: flex;
-  flex-direction: row;
-}
-
-.projectDivs>img{
-    float: left;
-    width: 30%;
-    height:30%;
-    margin:1.66%;
-    z-index: 1;
+  left: 16px;
+  font-size: 18px;
 }

@@ -34,19 +34,19 @@ ul li a:hover{
 .flex-container{
 display: flex;
 flex-direction: column;
+
 }
 
 .projectDivs{
 position: absolute;
   bottom: 8px;
-  display: flex;
-  flex-direction: row;
+  left: 16px;
+  font-size: 18px;
+  float: left;
+  width: 30%;
+  margin:1.66%;
 }
-
-.projectDivs>img{
-    float: left;
-    width: 30%;
-    height:30%;
-    margin:1.66%;
-    z-index: 1;
+.projectContainer{
+    display: flex;
+    flex-direction: row;
 }

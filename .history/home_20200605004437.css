@@ -1,0 +1,12 @@
+html {
+    height: 100%;
+  }
+  body {
+    min-height: 100%;
+  }
+
+.mainBox{
+display: grid;
+grid-template-columns: 4 ;
+grid-template-rows: 1fr 700px ;
+}

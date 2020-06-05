@@ -36,7 +36,6 @@ grid-template-rows: 1fr 700px ;
     color: white;
     grid-template-rows: 1fr; 
 }
-
 #backGroundImg{
     max-width: 100%;
     height:auto;

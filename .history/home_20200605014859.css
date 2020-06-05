@@ -35,9 +35,5 @@ grid-template-rows: 1fr 700px ;
 .navLi{
     color: white;
     grid-template-rows: 1fr; 
-}
-
-#backGroundImg{
-    max-width: 100%;
-    height:auto;
+    
 }

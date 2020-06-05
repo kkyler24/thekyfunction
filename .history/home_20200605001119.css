@@ -1,0 +1,26 @@
+html {
+    height: 100%;
+  }
+  body {
+    min-height: 100%;
+  }
+
+      /* Master of Wisdom paragraph CSS */
+      p.masterOfWisdom {
+        font-family: "Dancing Script", cursive;
+        font-size: 30px;
+      }
+
+      /* Brand Logo Icon CSS */
+      i.large.material-icons {
+        font-size: 60px;
+      }
+    
+
+      /* img CSS */
+      img.responsive-img {
+        max-width: 50%;
+        height: auto;
+        float: left;
+        margin-right: 1rem;
+      }

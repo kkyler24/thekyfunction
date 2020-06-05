@@ -4,7 +4,6 @@ html {
   body {
     min-height: 100%;
     background-color: violet;
-    overflow-x: hidden;
   }
 
 .mainBox{
@@ -20,24 +19,15 @@ grid-template-rows: 1fr 700px ;
 }
 
 .navUl{
-    margin-top: 1rem;
-    margin-bottom: 1rem;
     display: grid;
-    grid-template-columns:repeat(4,2fr);
+    grid-auto-columns:auto; 
     column-gap: 10px;
     background-color: yellowgreen;
+    width: fit-content;
     list-style-type: none;
     align-items: center;
     justify-items: center;
-    padding: 0px;
 }
-
 .navLi{
-    color: white;
-    grid-template-rows: 1fr; 
-}
-
-#backGroundImg{
-    max-width: 100%;
-    height:auto;
+    
 }

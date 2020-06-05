@@ -23,7 +23,7 @@ grid-template-rows: 1fr 700px ;
     margin-top: 1rem;
     margin-bottom: 1rem;
     display: grid;
-    grid-template-columns:repeat(4,2fr);
+    
     column-gap: 10px;
     background-color: yellowgreen;
     list-style-type: none;
@@ -33,11 +33,6 @@ grid-template-rows: 1fr 700px ;
 }
 
 .navLi{
-    color: white;
+    grid-template-columns:repeat(4 2fr);
     grid-template-rows: 1fr; 
-}
-
-#backGroundImg{
-    max-width: 100%;
-    height:auto;
 }

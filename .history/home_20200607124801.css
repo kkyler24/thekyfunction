@@ -55,7 +55,7 @@ a:hover {
 
 .navbar-toggler-icon {
   display: inline-block;
-  width: 2em;
+  width: 1.5em;
   height: 1.5em;
   vertical-align: middle;
   content: "";
@@ -63,8 +63,4 @@ a:hover {
   background-size: 100% 100%;
 }
 
-img#iconImage{
-  height: 50px;
-  width: 50px;
- color: white;
-}
+img#

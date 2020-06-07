@@ -46,21 +46,21 @@ a:hover {
     color: rgb(7, 7, 7);
 }
 
-.fa-ellipsis-h:before {
-    content: "\f141";
-    font-size: 30px;
+i.fa.fa-bar:before{
+    width: 24px;
+    height: 24px;
 }
 
-.fas{
+.fa{
     line-height: 2;
     font-weight: 1000;
-   
+    height: 40px;
+    width: 25px;
 }
 a.icon {
     display: none;
     align-self: center;
     justify-self: center;
-    color: #ffffff;
   }
 
   @media screen and (max-width: 600px) {

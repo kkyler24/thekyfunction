@@ -14,14 +14,11 @@
 <div class="mainBox" style="height: 700px;">
 <div class="navK">
   <!-- navbar -->
-  <div id="buttons1" class="buttons">
-   <a class="navLi active"href="#url">Home</a>
-   <a class="navLi"href="#url">About</a>
-   <a class="navLi"href="#url">Portfolio</a>
-   <a class="navLi"href="#url">Contact</a>
-   <a href="javascript:void(0);" class="icon">
-    <i class="fas fa-ellipsis-h"></i>
-  </div>
+  <ul class="navUl">
+   <li class="navLi"><a href="url">Home</a></li>
+   <li class="navLi"><a href="url">About</a></li>
+   <li class="navLi"><a href="url">Portfolio</a></li></li>
+   <li class="navLi"><a href="url">Contact</a></li></li>
 </div>
 <!-- body -->
 <div id="backGroundImg">
@@ -47,15 +44,5 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
-<script>
-  function myFunction() {
-  var x = document.getElementById("buttons1");
-  if (x.className === "buttons") {
-    x.className += " responsive";
-  } else {
-    x.className = "buttons";
-  }
-}
-</script>
 </body>
 </html>

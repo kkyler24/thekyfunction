@@ -54,7 +54,8 @@ a:hover {
 .fas{
     line-height: 2;
     font-weight: 1000;
-   
+    height: 40px;
+    width: 25px;
 }
 a.icon {
     display: none;

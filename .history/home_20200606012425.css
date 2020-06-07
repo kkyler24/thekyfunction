@@ -35,8 +35,9 @@ height: 70px;
 }
 
 .navLi{
-    padding: 1rem 5px 0px 5px;
+    margin: 1rem 5px 0px 5px;
     color: white;
+    padding: 0px;
     text-align: center;
     font-size: 17px;
 }
@@ -46,25 +47,12 @@ a:hover {
     color: rgb(7, 7, 7);
 }
 
-.fa-ellipsis-h:before {
-    content: "\f141";
-    font-size: 30px;
-}
-
-.fas{
-    line-height: 2;
-    font-weight: 1000;
-   
-}
-a.icon {
+a >icon {
     display: none;
-    align-self: center;
-    justify-self: center;
-    color: #ffffff;
   }
 
   @media screen and (max-width: 600px) {
-    .buttons a {display: none;}
+    .buttons a:not(:first-child) {display: none;}
     .buttons a.icon {
       float: left;
       display: block;

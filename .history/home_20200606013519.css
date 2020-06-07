@@ -45,22 +45,13 @@ a:hover {
     background-color: rgb(42, 187, 231);
     color: rgb(7, 7, 7);
 }
-
-.fa-ellipsis-h:before {
-    content: "\f141";
-    font-size: 30px;
+.fa fa-bars{
+    size: ;
+    align-self: center;
 }
 
-.fas{
-    line-height: 2;
-    font-weight: 1000;
-   
-}
 a.icon {
     display: none;
-    align-self: center;
-    justify-self: center;
-    color: #ffffff;
   }
 
   @media screen and (max-width: 600px) {

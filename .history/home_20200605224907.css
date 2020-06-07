@@ -1,0 +1,52 @@
+html {
+    height: 100%;
+  }
+  body {
+      height: 100%;
+    background-image: url("assets/damon-on-road-jJXN1q7ERks-unsplash.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: thistle;
+    background-size: cover;
+    overflow-x: hidden;
+  }
+
+.mainBox{
+display: grid;
+grid-template-areas: "nav nav"
+                       ".  ."
+                       "title  title"
+                       ".  .";
+grid-template-columns: 4 ;
+grid-template-rows: 70px 1fr 40px ;
+
+}
+
+.navK{
+    grid-area: nav;
+    background-color: rgb(0, 0,0, 0.6);
+    align-items: center;
+    justify-items: center;
+}
+
+.navUl{
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns:repeat(4,10%);
+    list-style-type: none;
+    justify-content: center;
+    padding: 0px;
+}
+
+.navLi{
+    color: white;
+    grid-template-rows: 1fr; 
+    justify-items: center;
+}
+
+ #backGroundImg{
+    grid-area: title;
+    grid-template-columns: 3fr;
+    background-color: royalblue;
+} 

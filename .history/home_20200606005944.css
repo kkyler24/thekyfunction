@@ -27,16 +27,17 @@ grid-template-rows: 10% 64% 7% 19% ;
     background-color: rgb(0, 0,0, 0.6);
 }
 
-.buttons{
-height: 70px;
+#buttons{
+
     display: grid;
     grid-template-columns: repeat(4,15%);
     justify-content: end;
 }
 
 .navLi{
-    padding: 1rem 5px 0px 5px;
+    margin: 0px 5px 0px 5px;
     color: white;
+    padding: 0px;
     text-align: center;
     font-size: 17px;
 }
@@ -45,45 +46,6 @@ a:hover {
     background-color: rgb(42, 187, 231);
     color: rgb(7, 7, 7);
 }
-
-.fa-ellipsis-h:before {
-    content: "\f141";
-    font-size: 30px;
-}
-
-.fas{
-    line-height: 2;
-    font-weight: 1000;
-   
-}
-a.icon {
-    display: none;
-    align-self: center;
-    justify-self: center;
-    color: #ffffff;
-  }
-
-  @media screen and (max-width: 600px) {
-    .buttons a {display: none;}
-    .buttons a.icon {
-      float: left;
-      display: block;
-    }
-  }
-
-  @media screen and (max-width: 600px) {
-    .buttons.responsive {position: relative;}
-    .buttons.responsive a.icon {
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-    .buttons.responsive a {
-      float: none;
-      display: block;
-      text-align: right;
-    }
-  }
 
  #backGroundImg{
     grid-area: title;

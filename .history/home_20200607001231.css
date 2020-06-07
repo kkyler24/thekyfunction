@@ -3,7 +3,7 @@ html {
   }
   body {
     height: 100%;
-    background-image: url("assets/butterflychange.jpg");
+    background-image: url("assets/damon-on-road-jJXN1q7ERks-unsplash.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     
@@ -13,12 +13,17 @@ html {
   }
 
 .mainBox{
-  display: grid;
+display: grid;
+grid-template-areas: "nav nav"
+                       ".  ."
+                       "title  title"
+                       ".  .";
 grid-template-rows: 10% 64% 7% 19% ;
 
 }
 
-.nav1{
+.mainBox{
+    grid-area: nav;
     background-color: rgb(0, 0,0, 0.6);
 }
 

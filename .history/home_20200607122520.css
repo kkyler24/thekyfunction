@@ -44,21 +44,12 @@ a:hover {
   color: white;
 }
 
-/* container that holds text and icon */
+/*  */
 .navbar-toggler {
   padding: .25rem .75rem;
   font-size: 1.25rem;
   line-height: 1;
   background-color: transparent;
+  border: 1px solid white;
   border-radius: .25rem;
-}
-
-.navbar-toggler-icon {
-  display: inline-block;
-  width: 1.5em;
-  height: 1.5em;
-  vertical-align: middle;
-  content: "";
-  background: no-repeat center center;
-  background-size: 100% 100%;
 }

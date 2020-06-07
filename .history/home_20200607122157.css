@@ -1,0 +1,38 @@
+html {
+    height: 100%;
+  }
+  body {
+    height: 100%;
+    background-image: url("assets/butterflychange.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    
+    background-color: thistle;
+    background-size: cover;
+    overflow-x: hidden;
+  }
+
+.mainBox{
+  display: grid;
+grid-template-rows: 10% 64% 7% 19% ;
+
+}
+
+.nav1{
+    background-color: rgb(0, 0,0, 0.6);
+}
+
+
+
+
+a:hover {
+    background-color: rgb(42, 187, 231);
+    color: rgb(7, 7, 7);
+}
+
+
+
+ #backGroundImg{
+
+    background-color: royalblue;
+} 

@@ -23,7 +23,12 @@ grid-template-rows: 10% 64% 7% 19% ;
 }
 
 
-
+.navLi{
+    padding: 1rem 5px 0px 5px;
+    color: white;
+    text-align: center;
+    font-size: 17px;
+}
 
 a:hover {
     background-color: rgb(42, 187, 231);
@@ -31,34 +36,30 @@ a:hover {
 }
 
 
+  @media screen and (max-width: 600px) {
+    .buttons a {display: none;}
+    .buttons a.icon {
+      float: left;
+      display: block;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .buttons.responsive {position: relative;}
+    .buttons.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .buttons.responsive a {
+      float: none;
+      display: block;
+      text-align: right;
+    }
+  }
 
  #backGroundImg{
     grid-area: title;
     grid-template-columns: 3fr;
     background-color: royalblue;
 } 
-
-/* menu button */
-[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
-  cursor: pointer;
-  color: white;
-}
-
-/* container that holds text and icon */
-.navbar-toggler {
-  padding: .25rem .75rem;
-  font-size: 1.25rem;
-  line-height: 1;
-  background-color: transparent;
-  border-radius: .25rem;
-}
-
-.navbar-toggler-icon {
-  display: inline-block;
-  width: 1.5em;
-  height: 1.5em;
-  vertical-align: middle;
-  content: "";
-  background: no-repeat center center;
-  background-size: 100% 100%;
-}

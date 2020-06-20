@@ -1,0 +1,61 @@
+html {
+    height: 100%;
+  }
+  body {
+    height: 100%;
+    background-image: url("assets/butterflychange.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    
+    background-color: thistle;
+    background-size: cover;
+    overflow-x: hidden;
+  }
+
+.nav1{
+    background-color: rgb(0, 0,0, 0.6);
+    position:fixed;
+}
+
+
+a:hover {
+    background-color: rgb(42, 187, 231);
+    color: rgb(7, 7, 7);
+}
+
+ #backGroundImg{
+    grid-area: title;
+    grid-template-columns: 3fr;
+    background-color: royalblue;
+} 
+
+/* menu button */
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+  cursor: pointer;
+  color: white;
+}
+
+/* container that holds text and icon */
+.navbar-toggler {
+  padding: .25rem .75rem;
+  font-size: 1.25rem;
+  line-height: 1;
+  background-color: transparent;
+  border-radius: .25rem;
+}
+
+.navbar-toggler-icon {
+  display: inline-block;
+  width: 2em;
+  height: 1.5em;
+  vertical-align: middle;
+  content: "";
+  background: no-repeat center center;
+  background-size: 100% 100%;
+}
+
+img#iconImage{
+  height: 50px;
+  width: 50px;
+ color: white;
+}
